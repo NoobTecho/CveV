@@ -3,7 +3,7 @@
     {
         "title":"PHP Command Injection",
         "desc":"",
-        "cveCode":"",
+        "cveCode":"8.1",
         "path":"",
         "date":"",
         "target":"wordpress"
@@ -11,7 +11,7 @@
     {
         "title":"PHP Command Injection",
         "desc":"",
-        "cveCode":"",
+        "cveCode":"2",
         "path":"",
         "date":"",
         "target":"wordpress"
