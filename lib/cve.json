@@ -1,12 +1,12 @@
 
 [
     {
-        "title":"PHP Command Injection",
+        "title":"TinyMce Plugins",
         "desc":"",
         "cveCode":"8.1",
-        "path":"",
-        "date":"2021-08-12",
-        "target":"wordpress"
+        "path":"{}/tinymce/plugins/image/upload.php",
+        "date":"2018-08-12",
+        "target":"All CMS"
     },
     {
         "title":"PHP Command Injection",
