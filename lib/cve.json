@@ -12,7 +12,7 @@
         "title":"PHP Command Injection",
         "desc":"",
         "cveCode":"2",
-        "path":"/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+        "path":"{}/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
         "date":"2024-03-22",
         "target":"wordpress"
     }
