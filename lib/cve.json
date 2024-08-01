@@ -6,7 +6,7 @@
         "cveCode":"8.1",
         "path":"{}/tinymce/plugins/image/upload.php",
         "date":"2018-08-12",
-        "target":"All CMS"
+        "target":"common"
     },
     {
         "title":"Laravel Unit",
@@ -44,7 +44,7 @@
         "target":"drupal"
     }
     {
-        "title":"Drupal Drupalgeddon",
+        "title":"Vbulettin",
         "desc":"",
         "cveCode":"2",
         "path":"{}/?routestring=ajax/render/widget_php",
@@ -52,12 +52,36 @@
         "target":"vbulletin"
     }
     {
-        "title":"Drupal Drupalgeddon",
+        "title":"RCE Webmin",
         "desc":"posible port : 10000",
         "cveCode":"8",
-        "path":"{}//rpc.cgi",
-        "date":"2019-03-22",
+        "path":"{}/rpc.cgi",
+        "namecode":"CVE-2019-15642",
         "required":"Autenthication",
         "target":"webmin"
+    }
+    {
+        "title":"Nexus RCE",
+        "desc":"",
+        "cveCode":"8",
+        "path":"{}/service/extdirect",
+        "namecode":"CVE-2019-7238",
+        "target":"common"
+    }
+    {
+        "title":"Apache Tomcat RCE",
+        "desc":"Windows - enableCmdLineArguments ON - file .bat yang bisa diakses.",
+        "cveCode":"8",
+        "path":"{}/cgi-bin/hello.bat?&C%3A%5CWindows%5CSystem32%5C",
+        "namecode":"CVE-2019-0232",
+        "target":"Apache Tomcat"
+    }
+    {
+        "title":"Drupal RCE",
+        "desc":"Drupal 8/7 dengan modul RESTful/JSON:API aktif dan izin PATCH/POST.",
+        "cveCode":"8",
+        "path":"{}/node/1?_format=hal_json",
+        "namecode":"CVE-2019-6340",
+        "target":"Drupal"
     }
 ]
