@@ -9,11 +9,55 @@
         "target":"All CMS"
     },
     {
-        "title":"PHP Command Injection",
+        "title":"Laravel Unit",
+        "desc":"",
+        "cveCode":"2",
+        "path":{
+            "{}/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+            ""
+        }
+        "date":"2024-03-22",
+        "target":"wordpress"
+    }
+    {
+        "title":"Laravel Unit ",
         "desc":"",
         "cveCode":"2",
         "path":"{}/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
         "date":"2024-03-22",
         "target":"wordpress"
+    }
+    {
+        "title":"Drupal Drupalgeddon 2",
+        "desc":"",
+        "cveCode":"2",
+        "path":"{}/user/register?element_parents=account/mail/%23value&ajax_form=1&_wrapper_format=drupal_ajax",
+        "date":"2018-03-22",
+        "target":"drupal"
+    }
+    {
+        "title":"Drupal Drupalgeddon",
+        "desc":"",
+        "cveCode":"2",
+        "path":"{}/node/?_format=hal_json",
+        "date":"2019-03-22",
+        "target":"drupal"
+    }
+    {
+        "title":"Drupal Drupalgeddon",
+        "desc":"",
+        "cveCode":"2",
+        "path":"{}/?routestring=ajax/render/widget_php",
+        "date":"2019-03-22",
+        "target":"vbulletin"
+    }
+    {
+        "title":"Drupal Drupalgeddon",
+        "desc":"posible port : 10000",
+        "cveCode":"8",
+        "path":"{}//rpc.cgi",
+        "date":"2019-03-22",
+        "required":"Autenthication",
+        "target":"webmin"
     }
 ]
